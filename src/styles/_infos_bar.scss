@@ -1,6 +1,7 @@
 @use 'variables';
 
 .infos-bar {
+    margin: 24px;
     padding: 16px 24px;
     background-color: variables.$cor4;
     display: flex;
@@ -21,7 +22,7 @@
             }
         }
     }
-    @media (max-width:640px) {
+    @media (max-width:767px) {
         display: block;
 
         &__infos {
